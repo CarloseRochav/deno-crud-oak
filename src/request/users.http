@@ -1,0 +1,16 @@
+### Obteniedo Usuario
+
+GET http://localhost:8081/get-all-users
+
+### Obtener un usuario
+GET http://localhost:8081/get-user/2
+
+### Crear Usuario
+POST http://localhost:8081/add-user
+Content-Type: application/json
+
+{
+    "name":"Mateo Rocha",
+    "country":"Mexico"
+}
+
